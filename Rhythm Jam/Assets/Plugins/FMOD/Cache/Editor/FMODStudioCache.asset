@@ -15,7 +15,7 @@ MonoBehaviour:
   Path: ../FMOD Project/Garden-Game/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637629904829887268
+  lastModified: 637629913009393358
   LoadResult: 0
   FileSizes:
   - Name: Desktop
@@ -43,7 +43,7 @@ MonoBehaviour:
   - {fileID: 6737091373535536980}
   StringsBanks:
   - {fileID: -797989519553646686}
-  stringsBankWriteTime: 637629904829887268
+  stringsBankWriteTime: 637629913009393358
   cacheVersion: 6
 --- !u!114 &6737091373535536980
 MonoBehaviour:
@@ -60,7 +60,7 @@ MonoBehaviour:
   Path: ../FMOD Project/Garden-Game/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637629904829877275
+  lastModified: 637629913009383382
   LoadResult: 0
   FileSizes: []
   Exists: 1

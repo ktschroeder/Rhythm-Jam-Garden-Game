@@ -6,7 +6,6 @@ using UnityEngine.Tilemaps;
 public class TileController : MonoBehaviour
 {
     private Tilemap tilemap;
-    
     public TileBase grass;
     public TileBase plantspot;
     public int gridHeight = 9;
