@@ -255,7 +255,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CollisionTag: 
-  Event: event:/Player Walk
+  Event: event:/Player/Player Walk
   PlayEvent: 0
   StopEvent: 0
   AllowFadeout: 1
