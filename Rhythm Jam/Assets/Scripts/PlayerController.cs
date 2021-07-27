@@ -9,22 +9,18 @@ public class PlayerController : MonoBehaviour
     private bool isMoving;
     private Vector3 origPos, targetPos;
     private float timeToMove = 0.2f; // in seconds
-    private Vector3 gridPos = new Vector3(1,1,0); // game-starting grid position. TODO this is magic and not directly tied to the player if they are dragged in the editor
+    private Vector3 gridPos = new Vector3(1,1,0); // game-starting grid position. This is magic and not directly tied to the player if they are dragged in the editor
 
-    public TileBase tileA;
-    public TileBase tileB;
-    public Vector2Int size;
-    public Tilemap tilemap;
     public TileController tileController;
 
     void Update(){
-        if(Input.GetKey(KeyCode.W) && !isMoving)
+        if(Input.GetKey(KeyCode.W) && !isMoving && transform.position.y <= tileController.gridHeight - 1)
             StartCoroutine(MovePlayer(Vector3.up));
-        if(Input.GetKey(KeyCode.A) && !isMoving)
+        if(Input.GetKey(KeyCode.A) && !isMoving && transform.position.x >= 1)
             StartCoroutine(MovePlayer(Vector3.left));
-        if(Input.GetKey(KeyCode.S) && !isMoving)
+        if(Input.GetKey(KeyCode.S) && !isMoving && transform.position.y >= 1)
             StartCoroutine(MovePlayer(Vector3.down));
-        if(Input.GetKey(KeyCode.D) && !isMoving)
+        if(Input.GetKey(KeyCode.D) && !isMoving && transform.position.x <= tileController.gridLength - 1)
             StartCoroutine(MovePlayer(Vector3.right));
             
         if(Input.GetKeyDown(KeyCode.E)){
