@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 using System;
+using FMODUnity;
 
 public class PlayerController : MonoBehaviour
 {
@@ -10,8 +11,13 @@ public class PlayerController : MonoBehaviour
     private Vector3 origPos, targetPos;
     private float timeToMove = 0.2f; // in seconds
     private Vector3 gridPos = new Vector3(1,1,0); // game-starting grid position. This is magic and not directly tied to the player if they are dragged in the editor
+    private StudioEventEmitter emitter;
 
     public TileController tileController;
+
+    void Awake() {
+        emitter = GetComponent<StudioEventEmitter>();
+    }
 
     void Update(){
         if(Input.GetKey(KeyCode.W) && !isMoving && transform.position.y <= tileController.gridHeight - 1)
@@ -33,6 +39,8 @@ public class PlayerController : MonoBehaviour
 
     private IEnumerator MovePlayer(Vector3 direction){
         isMoving = true;
+
+        emitter.Play();
 
         float elapsedTime = 0;
         origPos = transform.position;
