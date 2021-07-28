@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{0a49148c-649b-451d-b5c3-57d6f9897411}">
 		<property name="name">
-			<value>Player Walk</value>
+			<value>Walk Up</value>
 		</property>
 		<property name="outputFormat">
 			<value>2</value>
@@ -92,7 +92,7 @@
 	</object>
 	<object class="MultiSound" id="{b2de7082-6536-40c0-95b7-4e810efc5916}">
 		<relationship name="sounds">
-			<destination>{a6273c6c-e307-46c6-82aa-8ea78cec3d39}</destination>
+			<destination>{f0f532ac-20f0-4765-ae84-e65cc1237c5e}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{17ab4ff9-e7cb-4c0c-b2d2-b5d5327684be}">
@@ -122,9 +122,9 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{788553a6-4457-44ba-943c-a33796bda412}" />
-	<object class="SingleSound" id="{a6273c6c-e307-46c6-82aa-8ea78cec3d39}">
+	<object class="SingleSound" id="{f0f532ac-20f0-4765-ae84-e65cc1237c5e}">
 		<relationship name="audioFile">
-			<destination>{7cd21a70-5c13-46cb-8338-9adf1cd8aa22}</destination>
+			<destination>{8d7a7855-0fc6-4702-b26d-4d4a48bac46f}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{75fb3a2d-8507-4ba8-833e-50cec7e2bd97}" />
