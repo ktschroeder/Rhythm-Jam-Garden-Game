@@ -7,7 +7,7 @@ using FMODUnity;
 
 public class PlayerController : MonoBehaviour
 {
-    private bool isMoving;
+    public bool isMoving;
     private Vector3 origPos, targetPos;
     private float timeToMove = 0.2f; // in seconds
     private Vector3 gridPos = new Vector3(1,1,0); // game-starting grid position. This is magic and not directly tied to the player if they are dragged in the editor
@@ -40,7 +40,7 @@ public class PlayerController : MonoBehaviour
     private IEnumerator MovePlayer(Vector3 direction){
         isMoving = true;
 
-        emitter.Play();
+        //emitter.Play();
 
         float elapsedTime = 0;
         origPos = transform.position;

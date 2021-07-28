@@ -241,6 +241,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3bf9b4ece634ab848a44e48ee0faaf65, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isMoving: 0
   tileController: {fileID: 270115170}
 --- !u!114 &8651393
 MonoBehaviour:
@@ -251,20 +252,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 8651388}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Script: {fileID: 11500000, guid: f41893a03fa142349860a679a0015509, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CollisionTag: 
-  Event: event:/Player/Player Walk
-  PlayEvent: 0
-  StopEvent: 0
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  FootstepsEvent: event:/Player/Walk
+  playerController: {fileID: 8651392}
 --- !u!1 &270115166
 GameObject:
   m_ObjectHideFlags: 0
