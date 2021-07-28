@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="ParameterPreset" id="{d3323ccd-b025-4eb6-bd83-1cd858e24f9e}">
+		<property name="name">
+			<value>DrumsVol6</value>
+		</property>
+		<relationship name="folder">
+			<destination>{c0d92e62-8d4e-4f85-9b97-caaaa178645a}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{153d9bfc-6d8d-4ccf-aed4-ac08d758f48e}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{153d9bfc-6d8d-4ccf-aed4-ac08d758f48e}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

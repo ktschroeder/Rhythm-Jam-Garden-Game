@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="ParameterPreset" id="{1015c828-3dd7-4c68-940b-c4ff2973cc7a}">
+		<property name="name">
+			<value>DrumsVol1</value>
+		</property>
+		<relationship name="folder">
+			<destination>{c0d92e62-8d4e-4f85-9b97-caaaa178645a}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{72be0843-1314-462f-9b85-bef91cdac01c}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{72be0843-1314-462f-9b85-bef91cdac01c}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<relationship name="automators">
+			<destination>{59f7633b-8dd9-434f-a674-d0f0cc403693}</destination>
+		</relationship>
+	</object>
+	<object class="Automator" id="{59f7633b-8dd9-434f-a674-d0f0cc403693}">
+		<property name="nameOfPropertyBeingAutomated">
+			<value>cursorPosition</value>
+		</property>
+	</object>
+</objects>

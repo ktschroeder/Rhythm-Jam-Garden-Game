@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="ParameterPreset" id="{88965453-04f0-47a8-95c3-f780b0ecc2f3}">
+		<property name="name">
+			<value>OrganVol4</value>
+		</property>
+		<relationship name="folder">
+			<destination>{c0d92e62-8d4e-4f85-9b97-caaaa178645a}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{551e9df3-e5d8-440b-9ec6-d93d9127c520}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{551e9df3-e5d8-440b-9ec6-d93d9127c520}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
