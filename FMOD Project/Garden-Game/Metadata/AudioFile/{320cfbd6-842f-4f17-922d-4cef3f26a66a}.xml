@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{320cfbd6-842f-4f17-922d-4cef3f26a66a}">
+		<property name="assetPath">
+			<value>Rhythm Jam Audio/Melodies/Piano/Loud/5.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>4.1350340136054422</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{54c10e14-8eb1-4f54-a4db-016584d88983}</destination>
+		</relationship>
+	</object>
+</objects>

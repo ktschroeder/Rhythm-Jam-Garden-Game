@@ -4,6 +4,12 @@
 [Bb]uild/
 [Bb]uilds/
 Assets/AssetStoreTools*
+Assets/FMODStudioCache.asset
+Assets/FMODStudioCache.asset.meta
+Fmod.log
+Fmod_editor.log
+Assets/Plugins/FMOD/Cache/Editor/FMODstudioCache.asset.meta
+Assets/Plugins/FMOD/Cache/Editor/FMODstudioCache.asset
 
 # Visual Studio cache directory
 .vs/

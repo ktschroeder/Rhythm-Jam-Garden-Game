@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="EncodableAsset" id="{009df756-0f72-4965-ba2f-83151755d44e}">
+		<property name="assetPath">
+			<value>Rhythm Jam Audio/Melodies/Bass/Loud/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{54c10e14-8eb1-4f54-a4db-016584d88983}</destination>
+		</relationship>
+	</object>
+</objects>
