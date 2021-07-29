@@ -40,6 +40,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &-9103783785586190838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Full Song/OrganVol5
+  m_EditorClassIdentifier: 
+  Name: OrganVol5
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &-9095722261320019104
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -200,6 +220,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
+--- !u!114 &-8767859245378705944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Walk/up
+  m_EditorClassIdentifier: 
+  Name: up
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &-8765694156552834627
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -293,6 +333,26 @@ MonoBehaviour:
   m_Name: parameter:/Full Song/BassVol9
   m_EditorClassIdentifier: 
   Name: BassVol9
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &-8639333693164100555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Full Song/OrganVol4
+  m_EditorClassIdentifier: 
+  Name: OrganVol4
   Min: 0
   Max: 1
   Default: 0
@@ -520,6 +580,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
+--- !u!114 &-8347891730397617333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Bass Loud/BassVol3
+  m_EditorClassIdentifier: 
+  Name: BassVol3
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &-8338349658843508565
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -600,6 +680,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
+--- !u!114 &-8308727003460289380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Full Song/OrganVol9
+  m_EditorClassIdentifier: 
+  Name: OrganVol9
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &-8302226112859169331
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -653,6 +753,26 @@ MonoBehaviour:
   m_Name: parameter:/Guitar Loud/volume6
   m_EditorClassIdentifier: 
   Name: volume6
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &-8276872552612048423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Full Song/PianoVol9
+  m_EditorClassIdentifier: 
+  Name: PianoVol9
   Min: 0
   Max: 1
   Default: 0
@@ -720,13 +840,33 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 1
   Parameters:
-  - {fileID: -7884982969570849073}
-  - {fileID: -6369839796134946853}
-  - {fileID: 1132130450305092416}
-  - {fileID: 7130643307911190583}
+  - {fileID: -2311968086949669565}
+  - {fileID: -6128149846106573994}
+  - {fileID: -2855029061729412138}
+  - {fileID: -8767859245378705944}
   MinDistance: 1
   MaxDistance: 20
   Length: 461
+--- !u!114 &-8189439840279597918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Full Song/OrganVol6
+  m_EditorClassIdentifier: 
+  Name: OrganVol6
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &-8169868166509656399
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -760,6 +900,26 @@ MonoBehaviour:
   m_Name: parameter:/Walk/down
   m_EditorClassIdentifier: 
   Name: down
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &-8077595570566194945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Full Song/PianoVol6
+  m_EditorClassIdentifier: 
+  Name: PianoVol6
   Min: 0
   Max: 1
   Default: 0
@@ -1582,7 +1742,7 @@ MonoBehaviour:
   Path: ../FMOD Project/Built Banks/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637631019318467528
+  lastModified: 637631055180000000
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -1619,6 +1779,26 @@ MonoBehaviour:
   m_Name: parameter:/Full Song/PianoVol8
   m_EditorClassIdentifier: 
   Name: PianoVol8
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &-6803148365091067969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Full Song/BassVol1
+  m_EditorClassIdentifier: 
+  Name: BassVol1
   Min: 0
   Max: 1
   Default: 0
@@ -1846,6 +2026,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
+--- !u!114 &-6566540414918756055
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Drums Loud/DrumsVol4
+  m_EditorClassIdentifier: 
+  Name: DrumsVol4
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &-6555080336150117949
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1906,6 +2106,46 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &-6442210316219061372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Piano Loud/PianoVol1
+  m_EditorClassIdentifier: 
+  Name: PianoVol1
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &-6439456901991713965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Full Song/GuitarVol2
+  m_EditorClassIdentifier: 
+  Name: GuitarVol2
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &-6383520388084159013
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2146,6 +2386,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &-6128149846106573994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Walk/left
+  m_EditorClassIdentifier: 
+  Name: left
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &-6117135360560608890
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2219,6 +2479,26 @@ MonoBehaviour:
   m_Name: parameter:/Piano Loud/PianoVol2
   m_EditorClassIdentifier: 
   Name: PianoVol2
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &-6054988355314394500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Bass Loud/BassVol7
+  m_EditorClassIdentifier: 
+  Name: BassVol7
   Min: 0
   Max: 1
   Default: 0
@@ -2531,6 +2811,26 @@ MonoBehaviour:
   m_Name: parameter:/Full Song/BassVol4
   m_EditorClassIdentifier: 
   Name: BassVol4
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &-5769076499230423612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Full Song/BassVol5
+  m_EditorClassIdentifier: 
+  Name: BassVol5
   Min: 0
   Max: 1
   Default: 0
@@ -2961,15 +3261,15 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: -1718515726612698170}
-  - {fileID: 2502134947978495713}
-  - {fileID: 120851754104850111}
-  - {fileID: -6978385167109122958}
-  - {fileID: -3602336896116603199}
-  - {fileID: 2962981915304064302}
-  - {fileID: 1588457841466058633}
-  - {fileID: 3006449093662369575}
-  - {fileID: -5627243607062307095}
+  - {fileID: 2057493785014751866}
+  - {fileID: -935170430051941331}
+  - {fileID: -6566540414918756055}
+  - {fileID: -1489240369395828439}
+  - {fileID: -1446222448523532757}
+  - {fileID: 7547758653257696674}
+  - {fileID: -1253629931405242473}
+  - {fileID: 7067603334819219562}
+  - {fileID: 5662765703425216170}
   MinDistance: 0
   MaxDistance: 0
   Length: 8571
@@ -3133,6 +3433,46 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
+--- !u!114 &-4937002025115669710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Full Song/PianoVol5
+  m_EditorClassIdentifier: 
+  Name: PianoVol5
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &-4897953510905466145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Bass Loud/BassVol5
+  m_EditorClassIdentifier: 
+  Name: BassVol5
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &-4846338557060962600
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3146,6 +3486,26 @@ MonoBehaviour:
   m_Name: parameter:/Full Song/GuitarVol9
   m_EditorClassIdentifier: 
   Name: GuitarVol9
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &-4843164844165722178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Full Song/PianoVol4
+  m_EditorClassIdentifier: 
+  Name: PianoVol4
   Min: 0
   Max: 1
   Default: 0
@@ -3293,6 +3653,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
+--- !u!114 &-4556845751914521303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Piano Loud/PianoVol2
+  m_EditorClassIdentifier: 
+  Name: PianoVol2
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &-4539874242532490316
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3353,6 +3733,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
+--- !u!114 &-4481615182204555954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Full Song/BassVol4
+  m_EditorClassIdentifier: 
+  Name: BassVol4
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &-4450155949303761885
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3386,6 +3786,26 @@ MonoBehaviour:
   m_Name: parameter:/Full Song/DrumsVol1
   m_EditorClassIdentifier: 
   Name: DrumsVol1
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &-4424658693959169846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Guitar Loud/GuitarVol5
+  m_EditorClassIdentifier: 
+  Name: GuitarVol5
   Min: 0
   Max: 1
   Default: 0
@@ -3449,6 +3869,26 @@ MonoBehaviour:
   m_Name: parameter:/Organ Loud/volume9
   m_EditorClassIdentifier: 
   Name: volume9
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &-4315446072701810902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Piano Loud/PianoVol7
+  m_EditorClassIdentifier: 
+  Name: PianoVol7
   Min: 0
   Max: 1
   Default: 0
@@ -3549,6 +3989,26 @@ MonoBehaviour:
   m_Name: parameter:/Full Song/GuitarVol5
   m_EditorClassIdentifier: 
   Name: GuitarVol5
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &-4220619913824285589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Full Song/DrumsVol6
+  m_EditorClassIdentifier: 
+  Name: DrumsVol6
   Min: 0
   Max: 1
   Default: 0
@@ -3859,6 +4319,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &-3813668850221640082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Organ Loud/OrganVol9
+  m_EditorClassIdentifier: 
+  Name: OrganVol9
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &-3790666724300186446
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4079,6 +4559,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
+--- !u!114 &-3617838600164309103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Organ Loud/OrganVol7
+  m_EditorClassIdentifier: 
+  Name: OrganVol7
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &-3602336896116603199
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4139,6 +4639,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
+--- !u!114 &-3584456226600508352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Full Song/GuitarVol7
+  m_EditorClassIdentifier: 
+  Name: GuitarVol7
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &-3576059061160569261
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4152,6 +4672,26 @@ MonoBehaviour:
   m_Name: parameter:/Bass Loud/BassVol4
   m_EditorClassIdentifier: 
   Name: BassVol4
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &-3576012369057562544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Full Song/DrumsVol1
+  m_EditorClassIdentifier: 
+  Name: DrumsVol1
   Min: 0
   Max: 1
   Default: 0
@@ -4399,15 +4939,15 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: -1376202494050705696}
-  - {fileID: -983641940264359209}
-  - {fileID: 211738846077156207}
-  - {fileID: -3693223580114227009}
-  - {fileID: -4237817884695312821}
-  - {fileID: -1798144475562276918}
-  - {fileID: -1570520308333729987}
-  - {fileID: 8756434473194034579}
-  - {fileID: 7098622069131460903}
+  - {fileID: 3454991065223265843}
+  - {fileID: -2317414742162131731}
+  - {fileID: 146536275925139089}
+  - {fileID: 2304739826935897247}
+  - {fileID: 2351470263976706296}
+  - {fileID: 2472618600006094444}
+  - {fileID: -4424658693959169846}
+  - {fileID: 7801522570888044935}
+  - {fileID: 7369663301110466007}
   MinDistance: 0
   MaxDistance: 0
   Length: 8571
@@ -4464,6 +5004,26 @@ MonoBehaviour:
   m_Name: parameter:/Piano Loud/PianoVol4
   m_EditorClassIdentifier: 
   Name: PianoVol4
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &-3241954207306312537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Full Song/DrumsVol4
+  m_EditorClassIdentifier: 
+  Name: DrumsVol4
   Min: 0
   Max: 1
   Default: 0
@@ -4831,6 +5391,46 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
+--- !u!114 &-2855029061729412138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Walk/down
+  m_EditorClassIdentifier: 
+  Name: down
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &-2835104864294431759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Piano Loud/PianoVol8
+  m_EditorClassIdentifier: 
+  Name: PianoVol8
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &-2829003443755426071
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5123,6 +5723,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &-2537341952377136374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Full Song/GuitarVol5
+  m_EditorClassIdentifier: 
+  Name: GuitarVol5
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &-2522115348933684483
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5163,6 +5783,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &-2425755676164520764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Full Song/PianoVol2
+  m_EditorClassIdentifier: 
+  Name: PianoVol2
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &-2406588467878829955
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5283,6 +5923,46 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
+--- !u!114 &-2317414742162131731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Guitar Loud/GuitarVol7
+  m_EditorClassIdentifier: 
+  Name: GuitarVol7
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &-2311968086949669565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Walk/right
+  m_EditorClassIdentifier: 
+  Name: right
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &-2302586666034522368
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5315,6 +5995,26 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 17142
+--- !u!114 &-2282013388707850155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Full Song/GuitarVol1
+  m_EditorClassIdentifier: 
+  Name: GuitarVol1
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &-2278062532368804957
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5395,6 +6095,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &-2139038954990999979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Piano Loud/PianoVol9
+  m_EditorClassIdentifier: 
+  Name: PianoVol9
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &-2121662818471109160
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5538,6 +6258,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
+--- !u!114 &-1947555733326346745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Organ Loud/OrganVol6
+  m_EditorClassIdentifier: 
+  Name: OrganVol6
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &-1938067024114254344
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5551,6 +6291,26 @@ MonoBehaviour:
   m_Name: parameter:/Full Song/OrganVol3
   m_EditorClassIdentifier: 
   Name: OrganVol3
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &-1869405920308149958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Bass Loud/BassVol2
+  m_EditorClassIdentifier: 
+  Name: BassVol2
   Min: 0
   Max: 1
   Default: 0
@@ -5838,6 +6598,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
+--- !u!114 &-1489240369395828439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Drums Loud/DrumsVol6
+  m_EditorClassIdentifier: 
+  Name: DrumsVol6
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &-1486623867271567492
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5910,6 +6690,26 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 17142
+--- !u!114 &-1446222448523532757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Drums Loud/DrumsVol7
+  m_EditorClassIdentifier: 
+  Name: DrumsVol7
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &-1429100029311078297
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6066,6 +6866,26 @@ MonoBehaviour:
   m_Name: parameter:/Full Song/BassVol4
   m_EditorClassIdentifier: 
   Name: BassVol4
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &-1253629931405242473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Drums Loud/DrumsVol1
+  m_EditorClassIdentifier: 
+  Name: DrumsVol1
   Min: 0
   Max: 1
   Default: 0
@@ -6353,6 +7173,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
+--- !u!114 &-935170430051941331
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Drums Loud/DrumsVol2
+  m_EditorClassIdentifier: 
+  Name: DrumsVol2
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &-922072834524053869
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6386,6 +7226,26 @@ MonoBehaviour:
   m_Name: parameter:/Full Song/GuitarVol6
   m_EditorClassIdentifier: 
   Name: GuitarVol6
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &-882110508534173768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Full Song/BassVol2
+  m_EditorClassIdentifier: 
+  Name: BassVol2
   Min: 0
   Max: 1
   Default: 0
@@ -6673,6 +7533,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &-317146770207601248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Organ Loud/OrganVol4
+  m_EditorClassIdentifier: 
+  Name: OrganVol4
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &-302404016021286117
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6706,6 +7586,26 @@ MonoBehaviour:
   m_Name: parameter:/Walk/right
   m_EditorClassIdentifier: 
   Name: right
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &-259511983318019981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Full Song/GuitarVol4
+  m_EditorClassIdentifier: 
+  Name: GuitarVol4
   Min: 0
   Max: 1
   Default: 0
@@ -6753,6 +7653,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
+--- !u!114 &-244164252221509563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Organ Loud/OrganVol5
+  m_EditorClassIdentifier: 
+  Name: OrganVol5
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &-218715304134635722
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6793,6 +7713,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &-188115295865559387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Full Song/OrganVol2
+  m_EditorClassIdentifier: 
+  Name: OrganVol2
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &-151883963409629069
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6913,6 +7853,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
+--- !u!114 &-9078003112794001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Full Song/GuitarVol9
+  m_EditorClassIdentifier: 
+  Name: GuitarVol9
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6941,7 +7901,7 @@ MonoBehaviour:
   - {fileID: -6881771776916705866}
   StringsBanks:
   - {fileID: 1128685410611289452}
-  stringsBankWriteTime: 637631019318487491
+  stringsBankWriteTime: 637631055180000000
   cacheVersion: 6
 --- !u!114 &7598904253335368
 MonoBehaviour:
@@ -7016,6 +7976,26 @@ MonoBehaviour:
   m_Name: parameter:/Full Song/BassVol8
   m_EditorClassIdentifier: 
   Name: BassVol8
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &146536275925139089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Guitar Loud/GuitarVol3
+  m_EditorClassIdentifier: 
+  Name: GuitarVol3
   Min: 0
   Max: 1
   Default: 0
@@ -7123,6 +8103,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &372087011223670810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Full Song/DrumsVol7
+  m_EditorClassIdentifier: 
+  Name: DrumsVol7
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &404406727703733142
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7303,6 +8303,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
+--- !u!114 &625482156720385620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Full Song/OrganVol7
+  m_EditorClassIdentifier: 
+  Name: OrganVol7
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &634963411095233443
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7416,6 +8436,26 @@ MonoBehaviour:
   m_Name: parameter:/Full Song/BassVol7
   m_EditorClassIdentifier: 
   Name: BassVol7
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &779564484355065443
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Piano Loud/PianoVol6
+  m_EditorClassIdentifier: 
+  Name: PianoVol6
   Min: 0
   Max: 1
   Default: 0
@@ -7658,7 +8698,7 @@ MonoBehaviour:
   Path: ../FMOD Project/Built Banks/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637631019318487491
+  lastModified: 637631055180000000
   LoadResult: 0
   FileSizes:
   - Name: 
@@ -7704,6 +8744,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
+--- !u!114 &1157144766594245113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Bass Loud/BassVol4
+  m_EditorClassIdentifier: 
+  Name: BassVol4
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &1164606956984328113
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7724,6 +8784,46 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &1191557590491437819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Full Song/DrumsVol8
+  m_EditorClassIdentifier: 
+  Name: DrumsVol8
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &1225793295402138938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Full Song/DrumsVol3
+  m_EditorClassIdentifier: 
+  Name: DrumsVol3
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &1227126338753415433
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7924,6 +9024,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &1423713766570585606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Full Song/GuitarVol6
+  m_EditorClassIdentifier: 
+  Name: GuitarVol6
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &1442114949216483702
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8207,6 +9327,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
+--- !u!114 &1806387007437769259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Full Song/OrganVol3
+  m_EditorClassIdentifier: 
+  Name: OrganVol3
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &1808040141870712608
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8327,6 +9467,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
+--- !u!114 &2057493785014751866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Drums Loud/DrumsVol9
+  m_EditorClassIdentifier: 
+  Name: DrumsVol9
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &2105702974225633582
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8407,6 +9567,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &2190039023365893885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Bass Loud/BassVol1
+  m_EditorClassIdentifier: 
+  Name: BassVol1
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &2200817729134419878
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8427,6 +9607,66 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &2261842835874968787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Full Song/BassVol3
+  m_EditorClassIdentifier: 
+  Name: BassVol3
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &2304739826935897247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Guitar Loud/GuitarVol6
+  m_EditorClassIdentifier: 
+  Name: GuitarVol6
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &2351470263976706296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Guitar Loud/GuitarVol1
+  m_EditorClassIdentifier: 
+  Name: GuitarVol1
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &2361826003658966746
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8507,6 +9747,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &2472618600006094444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Guitar Loud/GuitarVol2
+  m_EditorClassIdentifier: 
+  Name: GuitarVol2
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &2480307641395266402
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8518,6 +9778,26 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
   m_Name: parameter:/Full Song/PianoVol3
+  m_EditorClassIdentifier: 
+  Name: PianoVol3
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &2492997540319237151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Piano Loud/PianoVol3
   m_EditorClassIdentifier: 
   Name: PianoVol3
   Min: 0
@@ -9150,6 +10430,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &3454991065223265843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Guitar Loud/GuitarVol4
+  m_EditorClassIdentifier: 
+  Name: GuitarVol4
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &3534487323229109470
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9430,6 +10730,46 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
+--- !u!114 &3932903114366909115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Full Song/PianoVol8
+  m_EditorClassIdentifier: 
+  Name: PianoVol8
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &3944327623367617546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Full Song/PianoVol7
+  m_EditorClassIdentifier: 
+  Name: PianoVol7
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &4006760697312180586
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9443,6 +10783,26 @@ MonoBehaviour:
   m_Name: parameter:/Full Song/GuitarVol2
   m_EditorClassIdentifier: 
   Name: GuitarVol2
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &4008344366856810512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Piano Loud/PianoVol5
+  m_EditorClassIdentifier: 
+  Name: PianoVol5
   Min: 0
   Max: 1
   Default: 0
@@ -9653,15 +11013,15 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: -9080192024608629473}
-  - {fileID: -5488992418187726241}
-  - {fileID: -489907065515305844}
-  - {fileID: 6833424590552339286}
-  - {fileID: -2889517080075239284}
-  - {fileID: -7100627205748749120}
-  - {fileID: 2846742329171964844}
-  - {fileID: -6326181147229869110}
-  - {fileID: 2559970627921543569}
+  - {fileID: -244164252221509563}
+  - {fileID: -317146770207601248}
+  - {fileID: -3813668850221640082}
+  - {fileID: -3617838600164309103}
+  - {fileID: -1947555733326346745}
+  - {fileID: 5744224158164602155}
+  - {fileID: 5118660304820120001}
+  - {fileID: 8293501264349040044}
+  - {fileID: 8361274376782919029}
   MinDistance: 0
   MaxDistance: 0
   Length: 8571
@@ -10186,6 +11546,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
+--- !u!114 &5118660304820120001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Organ Loud/OrganVol3
+  m_EditorClassIdentifier: 
+  Name: OrganVol3
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &5163333972276142861
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10306,6 +11686,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
+--- !u!114 &5392130635986541430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Full Song/BassVol9
+  m_EditorClassIdentifier: 
+  Name: BassVol9
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &5428768358487009255
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10386,15 +11786,15 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: 311078884204908032}
-  - {fileID: 3664690053004451606}
-  - {fileID: -5313406160765888080}
-  - {fileID: 7438587003779510125}
-  - {fileID: -2616812089542235364}
-  - {fileID: -7162038549097754527}
-  - {fileID: 1227126338753415433}
-  - {fileID: -3506697082509750738}
-  - {fileID: 2524002054879608957}
+  - {fileID: -4315446072701810902}
+  - {fileID: -2835104864294431759}
+  - {fileID: -2139038954990999979}
+  - {fileID: 2492997540319237151}
+  - {fileID: 4008344366856810512}
+  - {fileID: 779564484355065443}
+  - {fileID: -6442210316219061372}
+  - {fileID: 6793608207287736900}
+  - {fileID: -4556845751914521303}
   MinDistance: 0
   MaxDistance: 0
   Length: 8571
@@ -10498,6 +11898,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &5662765703425216170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Drums Loud/DrumsVol8
+  m_EditorClassIdentifier: 
+  Name: DrumsVol8
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &5667526048101943204
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10511,6 +11931,26 @@ MonoBehaviour:
   m_Name: parameter:/Full Song/PianoVol5
   m_EditorClassIdentifier: 
   Name: PianoVol5
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &5744224158164602155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Organ Loud/OrganVol2
+  m_EditorClassIdentifier: 
+  Name: OrganVol2
   Min: 0
   Max: 1
   Default: 0
@@ -10631,6 +12071,26 @@ MonoBehaviour:
   m_Name: parameter:/Organ Loud/volume6
   m_EditorClassIdentifier: 
   Name: volume6
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &5947762900647592730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Full Song/GuitarVol8
+  m_EditorClassIdentifier: 
+  Name: GuitarVol8
   Min: 0
   Max: 1
   Default: 0
@@ -11189,6 +12649,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &6793608207287736900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Piano Loud/PianoVol4
+  m_EditorClassIdentifier: 
+  Name: PianoVol4
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &6811255141536584964
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11269,6 +12749,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &6914571550456692578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Full Song/BassVol6
+  m_EditorClassIdentifier: 
+  Name: BassVol6
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &6932566653372813724
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11329,6 +12829,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &7000553352948381529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Full Song/OrganVol1
+  m_EditorClassIdentifier: 
+  Name: OrganVol1
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &7005269939608599365
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11349,6 +12869,46 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
+--- !u!114 &7024473720582651431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Full Song/BassVol7
+  m_EditorClassIdentifier: 
+  Name: BassVol7
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &7067603334819219562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Drums Loud/DrumsVol5
+  m_EditorClassIdentifier: 
+  Name: DrumsVol5
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &7098622069131460903
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11362,6 +12922,26 @@ MonoBehaviour:
   m_Name: parameter:/Guitar Loud/GuitarVol9
   m_EditorClassIdentifier: 
   Name: GuitarVol9
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &7113319066090841715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Full Song/PianoVol1
+  m_EditorClassIdentifier: 
+  Name: PianoVol1
   Min: 0
   Max: 1
   Default: 0
@@ -11422,6 +13002,26 @@ MonoBehaviour:
   m_Name: parameter:/Walk/up
   m_EditorClassIdentifier: 
   Name: up
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &7139009617440774158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Bass Loud/BassVol6
+  m_EditorClassIdentifier: 
+  Name: BassVol6
   Min: 0
   Max: 1
   Default: 0
@@ -11612,6 +13212,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &7342188047222551764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Full Song/OrganVol8
+  m_EditorClassIdentifier: 
+  Name: OrganVol8
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &7346330245014675872
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11685,6 +13305,26 @@ MonoBehaviour:
   m_Name: parameter:/Piano Loud/PianoVol3
   m_EditorClassIdentifier: 
   Name: PianoVol3
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &7369663301110466007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Guitar Loud/GuitarVol9
+  m_EditorClassIdentifier: 
+  Name: GuitarVol9
   Min: 0
   Max: 1
   Default: 0
@@ -11772,6 +13412,46 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &7476851391664021038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Bass Loud/BassVol8
+  m_EditorClassIdentifier: 
+  Name: BassVol8
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &7547758653257696674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Drums Loud/DrumsVol3
+  m_EditorClassIdentifier: 
+  Name: DrumsVol3
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &7570316592253735810
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11932,6 +13612,46 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &7801522570888044935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Guitar Loud/GuitarVol8
+  m_EditorClassIdentifier: 
+  Name: GuitarVol8
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &7829455872824924470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Bass Loud/BassVol9
+  m_EditorClassIdentifier: 
+  Name: BassVol9
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &7843113709772737483
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12114,6 +13834,46 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &7953134169580530917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Full Song/PianoVol3
+  m_EditorClassIdentifier: 
+  Name: PianoVol3
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &7972397451336136058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Full Song/GuitarVol3
+  m_EditorClassIdentifier: 
+  Name: GuitarVol3
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &8014372513890388512
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12234,6 +13994,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
+--- !u!114 &8206851633493347640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Full Song/BassVol8
+  m_EditorClassIdentifier: 
+  Name: BassVol8
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &8238969151042298964
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12294,6 +14074,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &8293501264349040044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Organ Loud/OrganVol8
+  m_EditorClassIdentifier: 
+  Name: OrganVol8
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &8328084867860677713
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12307,6 +14107,26 @@ MonoBehaviour:
   m_Name: parameter:/Bass Loud/BassVol1
   m_EditorClassIdentifier: 
   Name: BassVol1
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &8361274376782919029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Organ Loud/OrganVol1
+  m_EditorClassIdentifier: 
+  Name: OrganVol1
   Min: 0
   Max: 1
   Default: 0
@@ -12394,6 +14214,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
+--- !u!114 &8470002719311265221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Full Song/DrumsVol2
+  m_EditorClassIdentifier: 
+  Name: DrumsVol2
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &8520296607283195709
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12434,6 +14274,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &8539836502414272778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Full Song/DrumsVol9
+  m_EditorClassIdentifier: 
+  Name: DrumsVol9
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &8566693502113178250
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12554,51 +14414,51 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: 4548001958172971395}
-  - {fileID: 2480307641395266402}
-  - {fileID: -8686192081921297092}
-  - {fileID: -2693094001705777371}
-  - {fileID: 1401088918382090890}
-  - {fileID: -4575327292947638350}
-  - {fileID: 1974418519740017266}
-  - {fileID: 2596247160340642333}
-  - {fileID: -2603398022758744912}
-  - {fileID: -7046021514506401975}
-  - {fileID: -5734812045031883045}
-  - {fileID: -8456053386627216711}
-  - {fileID: 8376064417664336539}
-  - {fileID: 4935957394318587043}
-  - {fileID: 5440602811574355011}
-  - {fileID: -2023471148150154991}
-  - {fileID: -3123621851256690820}
-  - {fileID: -2778551410101410840}
-  - {fileID: -5078554214480049309}
-  - {fileID: 5588002674496771023}
-  - {fileID: -4147057512104080071}
-  - {fileID: 2683884741882262153}
-  - {fileID: -6013206843022532712}
-  - {fileID: -1539980156531561635}
-  - {fileID: -940834202575441495}
-  - {fileID: 8767256055819791174}
-  - {fileID: -67853369644046213}
-  - {fileID: -8999406803195973035}
-  - {fileID: 3196978284832540177}
-  - {fileID: 7372891295304452383}
-  - {fileID: -5901578782722870858}
-  - {fileID: 1277765085699070318}
-  - {fileID: 7843113709772737483}
-  - {fileID: 8166787636479768683}
-  - {fileID: -2522115348933684483}
-  - {fileID: -3180821942510998724}
-  - {fileID: 6572802036275813184}
-  - {fileID: -3666580318044044441}
-  - {fileID: 4608989255464410319}
-  - {fileID: -7563181944237559907}
-  - {fileID: 7346330245014675872}
-  - {fileID: 795289711390961039}
-  - {fileID: -1486623867271567492}
-  - {fileID: 2913841589495016216}
-  - {fileID: 4522294109996079167}
+  - {fileID: -8077595570566194945}
+  - {fileID: 7953134169580530917}
+  - {fileID: 5392130635986541430}
+  - {fileID: -4937002025115669710}
+  - {fileID: 8539836502414272778}
+  - {fileID: 6914571550456692578}
+  - {fileID: -8308727003460289380}
+  - {fileID: -9078003112794001}
+  - {fileID: -2537341952377136374}
+  - {fileID: 5947762900647592730}
+  - {fileID: -882110508534173768}
+  - {fileID: 8470002719311265221}
+  - {fileID: 7113319066090841715}
+  - {fileID: -8639333693164100555}
+  - {fileID: -4220619913824285589}
+  - {fileID: -3241954207306312537}
+  - {fileID: -6803148365091067969}
+  - {fileID: 3944327623367617546}
+  - {fileID: -9103783785586190838}
+  - {fileID: -6439456901991713965}
+  - {fileID: 1225793295402138938}
+  - {fileID: 372087011223670810}
+  - {fileID: -8276872552612048423}
+  - {fileID: 7024473720582651431}
+  - {fileID: 3932903114366909115}
+  - {fileID: -3576012369057562544}
+  - {fileID: 1423713766570585606}
+  - {fileID: 1806387007437769259}
+  - {fileID: -2282013388707850155}
+  - {fileID: 8969202070366233776}
+  - {fileID: 7342188047222551764}
+  - {fileID: 7000553352948381529}
+  - {fileID: -2425755676164520764}
+  - {fileID: 7972397451336136058}
+  - {fileID: 2261842835874968787}
+  - {fileID: -8189439840279597918}
+  - {fileID: -259511983318019981}
+  - {fileID: -3584456226600508352}
+  - {fileID: 625482156720385620}
+  - {fileID: 1191557590491437819}
+  - {fileID: -4843164844165722178}
+  - {fileID: 8206851633493347640}
+  - {fileID: -5769076499230423612}
+  - {fileID: -4481615182204555954}
+  - {fileID: -188115295865559387}
   MinDistance: 0
   MaxDistance: 0
   Length: 8571
@@ -12742,15 +14602,15 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: -4572276743296463347}
-  - {fileID: 8183853061584388942}
-  - {fileID: 8957647695193633963}
-  - {fileID: -5791073027545250615}
-  - {fileID: -5038943298677070328}
-  - {fileID: 1942052194645125838}
-  - {fileID: -7514017480200334140}
-  - {fileID: -7208789521480483211}
-  - {fileID: 4684250469337572461}
+  - {fileID: -6054988355314394500}
+  - {fileID: 2190039023365893885}
+  - {fileID: -1869405920308149958}
+  - {fileID: 7139009617440774158}
+  - {fileID: 7829455872824924470}
+  - {fileID: 1157144766594245113}
+  - {fileID: -4897953510905466145}
+  - {fileID: 7476851391664021038}
+  - {fileID: -8347891730397617333}
   MinDistance: 0
   MaxDistance: 0
   Length: 8571
@@ -12807,6 +14667,26 @@ MonoBehaviour:
   m_Name: parameter:/Bass Loud/BassVol2
   m_EditorClassIdentifier: 
   Name: BassVol2
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &8969202070366233776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Full Song/DrumsVol5
+  m_EditorClassIdentifier: 
+  Name: DrumsVol5
   Min: 0
   Max: 1
   Default: 0
