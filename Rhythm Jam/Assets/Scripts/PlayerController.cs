@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 using System;
-using FMODUnity;
 
 public class PlayerController : MonoBehaviour
 {

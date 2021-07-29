@@ -39,14 +39,14 @@ public class MusicHandler : MonoBehaviour
             volume = reduced_volume_level;
         }
 
-        SetVolume(position, instrument, volume);
+        SetPlantVolume(position, instrument, volume);
     }
 
     public void RemovePlant(int position, InstrumentEnum.Instrument instrument) {
-        SetVolume(position, instrument, 0.0f);
+        SetPlantVolume(position, instrument, 0.0f);
     }
 
-    private void SetVolume(int position, InstrumentEnum.Instrument instrument, float volume) {
+    private void SetPlantVolume(int position, InstrumentEnum.Instrument instrument, float volume) {
         string param_string = "";
 
         switch (instrument)
