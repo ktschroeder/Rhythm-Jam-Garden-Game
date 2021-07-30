@@ -120,6 +120,7 @@ public class TileController : MonoBehaviour
                 }
                 if (!duplicate)
                 {
+                    Uproot(pos);
                     tilemaps[pos.y].SetTile(pos, selectedPlant);
                     MusicHandler.Instance.AddPlant(pos.x - 3, false, instrument);
                 }
@@ -162,22 +163,7 @@ public class TileController : MonoBehaviour
                     }
                 }
                 if (!duplicate) {
-                    tilemaps[pos.y].SetTile(pos, selectedPlant);
-                    MusicHandler.Instance.AddPlant(9, false, instrument);
-                }
-            }
-        }
-
-        if (!duplicate) {
-            Uproot(pos);
-
-            if(pos.x > 3 && pos.x < 12){
-                if(pos.y == 1 || pos.y == 2 || pos.y == 6 || pos.y == 7){
-                    tilemaps[pos.y].SetTile(pos, selectedPlant);
-                    MusicHandler.Instance.AddPlant(pos.x - 3, false, instrument);
-                }
-            }else if(pos.x == 1){
-                if(pos.y == 3 || pos.y == 4 || pos.y == 5){
+                    Uproot(pos);
                     tilemaps[pos.y].SetTile(pos, selectedPlant);
                     MusicHandler.Instance.AddPlant(9, false, instrument);
                 }

@@ -31,7 +31,7 @@ public class MusicHandler : MonoBehaviour
 
     }
 
-     public void AddPlant(int position, bool grown, InstrumentEnum.Instrument instrument) {
+    public void AddPlant(int position, bool grown, InstrumentEnum.Instrument instrument) {
         float volume;
         if (grown) {
             volume = 1.0f;
