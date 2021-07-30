@@ -61,7 +61,7 @@ public class TileController : MonoBehaviour
     // plants a type of plant (instrument) at position pos
     public void Plant(Vector3Int pos, InstrumentEnum.Instrument instrument){
         TileBase selectedPlant = drumkitGrown;
-        Uproot(pos);
+        bool duplicate = false;
 
         switch (instrument)
         {
@@ -82,15 +82,153 @@ public class TileController : MonoBehaviour
                 break;
         }
 
+        if(pos.x > 3 && pos.x < 12)
+        {
+            if(pos.y == 1 || pos.y == 2 || pos.y == 6 || pos.y == 7)
+            {
+                int[] rows = { 1, 2, 6, 7 };
+                foreach (int i in rows)
+                {
+                    switch (GetTileName(new Vector3Int(pos.x, i, 0)))
+                    {
+                        case "PianoNew":
+                        case "PianoGrown":
+                            if(selectedPlant == pianoNew)
+                                duplicate = true;
+                            break;
+                        case "PipeorganNew":
+                        case "PipeorganGrown":
+                            if(selectedPlant == pipeorganNew)
+                                duplicate = true;
+                            break;
+                        case "GuitarNew":
+                        case "GuitarGrown":
+                            if(selectedPlant == guitarNew)
+                                duplicate = true;
+                            break;
+                        case "DrumkitNew":
+                        case "DrumkitGrown":
+                            if(selectedPlant == drumkitNew)
+                                duplicate = true;
+                            break;
+                        case "BassNew":
+                        case "BassGrown":
+                            if(selectedPlant == bassNew)
+                                duplicate = true;
+                            break;
+                    }
+                }
+                if (!duplicate)
+                {
+                    tilemaps[pos.y].SetTile(pos, selectedPlant);
+                    MusicHandler.Instance.AddPlant(pos.x - 3, false, instrument);
+                }
+            }
+        }
+        else if (pos.x == 1)
+        {
+            if(pos.y == 3 || pos.y == 4 || pos.y == 5)
+            {
+                int[] rows = {3, 4, 5};
+                foreach (int i in rows)
+                {
+                    switch (GetTileName(new Vector3Int(pos.x, i, 0)))
+                    {
+                        case "PianoNew":
+                        case "PianoGrown":
+                            if(selectedPlant == pianoNew)
+                                duplicate = true;
+                            break;
+                        case "PipeorganNew":
+                        case "PipeorganGrown":
+                            if(selectedPlant == pipeorganNew)
+                                duplicate = true;
+                            break;
+                        case "GuitarNew":
+                        case "GuitarGrown":
+                            if(selectedPlant == guitarNew)
+                                duplicate = true;
+                            break;
+                        case "DrumkitNew":
+                        case "DrumkitGrown":
+                            if(selectedPlant == drumkitNew)
+                                duplicate = true;
+                            break;
+                        case "BassNew":
+                        case "BassGrown":
+                            if(selectedPlant == bassNew)
+                                duplicate = true;
+                            break;
+                    }
+                }
+                if (!duplicate) {
+                    tilemaps[pos.y].SetTile(pos, selectedPlant);
+                    MusicHandler.Instance.AddPlant(9, false, instrument);
+                }
+            }
+        }
+
+        if (!duplicate) {
+            Uproot(pos);
+
+            if(pos.x > 3 && pos.x < 12){
+                if(pos.y == 1 || pos.y == 2 || pos.y == 6 || pos.y == 7){
+                    tilemaps[pos.y].SetTile(pos, selectedPlant);
+                    MusicHandler.Instance.AddPlant(pos.x - 3, false, instrument);
+                }
+            }else if(pos.x == 1){
+                if(pos.y == 3 || pos.y == 4 || pos.y == 5){
+                    tilemaps[pos.y].SetTile(pos, selectedPlant);
+                    MusicHandler.Instance.AddPlant(9, false, instrument);
+                }
+            }
+        }
+    }
+
+    public void Water(Vector3Int pos){
+        TileBase selectedPlant = null;
+        string currentPlant = GetTileName(pos);
+        InstrumentEnum.Instrument instrument = InstrumentEnum.Instrument.Piano;
+
+        switch (currentPlant)
+        {
+            case "PianoNew":
+                selectedPlant = pianoGrown;
+                instrument = InstrumentEnum.Instrument.Piano;
+                break;
+            case "PipeorganNew":
+                selectedPlant = pipeorganGrown;
+                instrument = InstrumentEnum.Instrument.Organ;
+                break;
+            case "GuitarNew":
+                selectedPlant = guitarGrown;
+                instrument = InstrumentEnum.Instrument.Guitar;
+                break;
+            case "DrumkitNew":
+                selectedPlant = drumkitGrown;
+                instrument = InstrumentEnum.Instrument.Drums;
+                break;
+            case "BassNew":
+                selectedPlant = bassGrown;
+                instrument = InstrumentEnum.Instrument.Bass;
+                break;
+        }
+
+        if(selectedPlant == null) {
+            return;
+        }
+
+        Uproot(pos);
+
         if(pos.x > 3 && pos.x < 12){
             if(pos.y == 1 || pos.y == 2 || pos.y == 6 || pos.y == 7){
                 tilemaps[pos.y].SetTile(pos, selectedPlant);
-                MusicHandler.Instance.AddPlant(pos.x - 3, false, instrument);
+                MusicHandler.Instance.AddPlant(pos.x - 3, true, instrument);
             }
         }else if(pos.x == 1){
             if(pos.y == 3 || pos.y == 4 || pos.y == 5){
                 tilemaps[pos.y].SetTile(pos, selectedPlant);
-                MusicHandler.Instance.AddPlant(9, false, instrument);
+                MusicHandler.Instance.AddPlant(9, true, instrument);
             }
         }
     }

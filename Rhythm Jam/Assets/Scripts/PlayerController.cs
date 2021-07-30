@@ -61,6 +61,13 @@ public class PlayerController : MonoBehaviour
             //uproot a plant
             tileController.Uproot(new Vector3Int(playerNearGridX, playerNearGridY, 0));
         }
+        if(Input.GetKeyDown(KeyCode.Q)){
+            int playerNearGridX = (int)Math.Round(transform.position.x - 0.5f); // the -0.5f is because the sprite position is determined by its center, whereas the tilemap tiles are determined by their lower left corner
+            int playerNearGridY = (int)Math.Round(transform.position.y - 1.28f); // this rounding lets a player perform an action on a grid spot while moving
+
+            //plant a plant
+            tileController.Water(new Vector3Int(playerNearGridX, playerNearGridY, 0));
+        }
 
     }
 
