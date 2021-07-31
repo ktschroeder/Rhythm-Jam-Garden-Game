@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 using System;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -67,6 +68,11 @@ public class PlayerController : MonoBehaviour
 
             //plant a plant
             tileController.Water(new Vector3Int(playerNearGridX, playerNearGridY, 0));
+        }
+
+        if (Input.GetKeyDown(KeyCode.T))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
         }
 
     }
