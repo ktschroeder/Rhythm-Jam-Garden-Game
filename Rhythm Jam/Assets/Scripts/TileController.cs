@@ -20,6 +20,9 @@ public class TileController : MonoBehaviour
     public TileBase pipeorganNew;
     public TileBase pipeorganGrown;
 
+    [FMODUnity.EventRef]
+	public string ErrorEvent = "";
+
     public int gridHeight = 9;
     public int gridLength = 13;
 
@@ -123,6 +126,10 @@ public class TileController : MonoBehaviour
                     Uproot(pos);
                     tilemaps[pos.y].SetTile(pos, selectedPlant);
                     MusicHandler.Instance.AddPlant(pos.x - 3, false, instrument);
+                } else {
+                    FMOD.Studio.EventInstance error = FMODUnity.RuntimeManager.CreateInstance(ErrorEvent);
+                    error.start();
+                    error.release();
                 }
             }
         }
@@ -166,6 +173,10 @@ public class TileController : MonoBehaviour
                     Uproot(pos);
                     tilemaps[pos.y].SetTile(pos, selectedPlant);
                     MusicHandler.Instance.AddPlant(9, false, instrument);
+                } else {
+                    FMOD.Studio.EventInstance error = FMODUnity.RuntimeManager.CreateInstance(ErrorEvent);
+                    error.start();
+                    error.release();
                 }
             }
         }

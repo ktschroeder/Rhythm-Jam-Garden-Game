@@ -2863,6 +2863,7 @@ MonoBehaviour:
   pianoGrown: {fileID: 11400000, guid: 213de178c014d884b98ad191822a32d5, type: 2}
   pipeorganNew: {fileID: 11400000, guid: 8f8b4a3dc4226f54ebc19d4bbf81b1b4, type: 2}
   pipeorganGrown: {fileID: 11400000, guid: 07d157c08cb3ae243936189d18925c75, type: 2}
+  ErrorEvent: event:/Player/Error
   gridHeight: 9
   gridLength: 13
 --- !u!1 &615094171
