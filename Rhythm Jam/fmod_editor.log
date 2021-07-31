@@ -7,7 +7,7 @@
 [LOG] OutputWASAPI::init                       : Output buffer size: 4096 samples, latency: 0.00ms, period: 10.00ms, DSP buffer: 1024 * 4
 [LOG] Thread::initThread                       : Init FMOD stream thread. Affinity: 0x8000000000000003, Priority: 0xFFFF7FFB, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
 [LOG] Thread::initThread                       : Init FMOD mixer thread. Affinity: 0x8000000000000001, Priority: 0xFFFF7FFA, Stack Size: 81920, Semaphore: No, Sleep Time: 0, Looping: Yes.
-[LOG] AsyncManager::init                       : manager 0000028FDAE04768 isAsync 0 updatePeriod 0.02
+[LOG] AsyncManager::init                       : manager 000001445A2E87A8 isAsync 0 updatePeriod 0.02
 [LOG] AsyncManager::init                       : done
 [LOG] PlaybackSystem::init                     : 
 [LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Affinity: 0x8000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
@@ -21,14 +21,14 @@
 [LOG] SystemI::createSoundInternal             : exinfo->length             = 1860864
 [LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 58912
 [LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000952973F008
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000016BBEFF158
 [LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
 [LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FF906D77D70
-[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FF906D77D40
-[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FF906D77E40
-[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FF906D77F00
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000028FE127A398
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFACD167D70
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFACD167D40
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFACD167E40
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFACD167F00
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 00000143A6CA7A38
 [LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
 [LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
 [LOG] SystemI::createSoundInternal             : Sample 0/1: name='Walk Down', format=5, channels=2, frequency=48000, lengthbytes=4640, lengthpcm=22154, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.063446.
@@ -37,14 +37,14 @@
 [LOG] SystemI::createSoundInternal             : exinfo->length             = 1860864
 [LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 58912
 [LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000952973F008
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000016BBEFF158
 [LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
 [LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FF906D77D70
-[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FF906D77D40
-[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FF906D77E40
-[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FF906D77F00
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000028FE127A398
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFACD167D70
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFACD167D40
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFACD167E40
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFACD167F00
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 00000143A6CA7A38
 [LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
 [LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
 [LOG] SystemI::createSoundInternal             : Sample 0/1: name='Walk Left', format=5, channels=2, frequency=48000, lengthbytes=4704, lengthpcm=22154, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.038147.
@@ -53,14 +53,14 @@
 [LOG] SystemI::createSoundInternal             : exinfo->length             = 1860864
 [LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 58912
 [LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000952973F008
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000016BBEFF158
 [LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
 [LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FF906D77D70
-[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FF906D77D40
-[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FF906D77E40
-[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FF906D77F00
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000028FE127A398
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFACD167D70
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFACD167D40
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFACD167E40
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFACD167F00
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 00000143A6CA7A38
 [LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
 [LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
 [LOG] SystemI::createSoundInternal             : Sample 0/1: name='Walk Up', format=5, channels=2, frequency=48000, lengthbytes=4480, lengthpcm=22154, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.029083.
@@ -69,133 +69,115 @@
 [LOG] SystemI::createSoundInternal             : exinfo->length             = 1860864
 [LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 58912
 [LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000952973F008
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000016BBEFF158
 [LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
 [LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FF906D77D70
-[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FF906D77D40
-[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FF906D77E40
-[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FF906D77F00
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000028FE127A398
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFACD167D70
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFACD167D40
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFACD167E40
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFACD167F00
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 00000143A6CA7A38
 [LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
 [LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
 [LOG] SystemI::createSoundInternal             : Sample 0/1: name='Walk Right', format=5, channels=2, frequency=48000, lengthbytes=4864, lengthpcm=22154, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.051483.
-[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
-[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             : exinfo->length             = 1860864
-[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 58912
-[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000952973F008
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FF906D77D70
-[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FF906D77D40
-[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FF906D77E40
-[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FF906D77F00
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000028F2A31AB78
-[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
-[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
-[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Cannot Do', format=5, channels=2, frequency=48000, lengthbytes=2272, lengthpcm=88614, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.198090.
-[LOG] SoundI::release                          :  (0000028FDCD18228)
-[LOG] SoundI::release                          :     Cannot Do (0000028F29F23718)
-[LOG] SoundI::release                          :  (0000028EDA8BF768)
-[LOG] SoundI::release                          :     Walk Up (0000028F29F26E58)
-[LOG] SoundI::release                          :  (0000028EDA8BF488)
-[LOG] SoundI::release                          :     Walk Right (0000028F29F23578)
-[LOG] SoundI::release                          :  (0000028FEA789148)
-[LOG] SoundI::release                          :     Walk Down (0000028F29F25458)
-[LOG] SoundI::release                          :  (0000028FEA789598)
-[LOG] SoundI::release                          :     Walk Left (0000028F29F24A98)
-[LOG] SoundI::release                          :  (0000028FEAF07B68)
-[LOG] SoundI::release                          :     6 (0000028F29D58D88)
-[LOG] SoundI::release                          :  (0000028F2B167CF8)
-[LOG] SoundI::release                          :     8 (0000028F29F26978)
-[LOG] SoundI::release                          :  (0000028FEA2ED8B8)
-[LOG] SoundI::release                          :     4 (0000028F29F24418)
-[LOG] SoundI::release                          :  (0000028FDCE49F48)
-[LOG] SoundI::release                          :     Loud (0000028F29D53428)
-[LOG] SoundI::release                          :  (0000028FDCE4A228)
-[LOG] SoundI::release                          :     2 (0000028F29D53908)
-[LOG] SoundI::release                          :  (0000028FDCE49AF8)
-[LOG] SoundI::release                          :     3 (0000028F29D53768)
-[LOG] SoundI::release                          :  (0000028FEAF079F8)
-[LOG] SoundI::release                          :     5 (0000028F29D588A8)
-[LOG] SoundI::release                          :  (0000028FB56FED48)
-[LOG] SoundI::release                          :     1 (0000028F29D53C48)
-[LOG] SoundI::release                          :  (0000028FEAF07CD8)
-[LOG] SoundI::release                          :     7 (0000028F29D58A48)
-[LOG] SoundI::release                          :  (0000028F2B167B88)
-[LOG] SoundI::release                          :     1 (0000028F29F233D8)
-[LOG] SoundI::release                          :  (0000028FEAF07718)
-[LOG] SoundI::release                          :     3 (0000028F29D57EE8)
-[LOG] SoundI::release                          :  (0000028F2B167458)
-[LOG] SoundI::release                          :     6 (0000028F29F23F38)
-[LOG] SoundI::release                          :  (0000028F2B167738)
-[LOG] SoundI::release                          :     7 (0000028F29F25C78)
-[LOG] SoundI::release                          :  (0000028FEA788CF8)
-[LOG] SoundI::release                          :     8 (0000028F29F25118)
-[LOG] SoundI::release                          :  (0000028FEAF07E48)
-[LOG] SoundI::release                          :     4 (0000028F29D58228)
-[LOG] SoundI::release                          :  (0000028F2B167178)
-[LOG] SoundI::release                          :     2 (0000028F29F23D98)
-[LOG] SoundI::release                          :  (0000028FEA7892B8)
-[LOG] SoundI::release                          :     5 (0000028F29F240D8)
-[LOG] SoundI::release                          :  (0000028FEAF07438)
-[LOG] SoundI::release                          :     Loud (0000028F29D57A08)
-[LOG] SoundI::release                          :  (0000028F2B167A18)
-[LOG] SoundI::release                          :     5 (0000028F29F245B8)
-[LOG] SoundI::release                          :  (0000028FEA789428)
-[LOG] SoundI::release                          :     8 (0000028F29F248F8)
-[LOG] SoundI::release                          :  (0000028FEA2ED748)
-[LOG] SoundI::release                          :     6 (0000028F29D57BA8)
-[LOG] SoundI::release                          :  (0000028FEA788B88)
-[LOG] SoundI::release                          :     1 (0000028F29F25E18)
-[LOG] SoundI::release                          :  (0000028FEA788E68)
-[LOG] SoundI::release                          :     Loud (0000028F29F26158)
-[LOG] SoundI::release                          :  (0000028FEA2EDB98)
-[LOG] SoundI::release                          :     4 (0000028F29F23098)
-[LOG] SoundI::release                          :  (0000028FB56FE4A8)
-[LOG] SoundI::release                          :     2 (0000028F29D58BE8)
-[LOG] SoundI::release                          :  (0000028FEAF07FB8)
-[LOG] SoundI::release                          :     3 (0000028F29D58568)
-[LOG] SoundI::release                          :  (0000028F2B167008)
-[LOG] SoundI::release                          :     7 (0000028F29F26498)
-[LOG] SoundI::release                          :  (0000028F2B1672E8)
-[LOG] SoundI::release                          :     3 (0000028F29F23238)
-[LOG] SoundI::release                          :  (0000028F2B1678A8)
-[LOG] SoundI::release                          :     4 (0000028F29F238B8)
-[LOG] SoundI::release                          :  (0000028FEAF07888)
-[LOG] SoundI::release                          :     7 (0000028F29D583C8)
-[LOG] SoundI::release                          :  (0000028FEA2EDE78)
-[LOG] SoundI::release                          :     6 (0000028F29F23BF8)
-[LOG] SoundI::release                          :  (0000028FEA2EE2C8)
-[LOG] SoundI::release                          :     5 (0000028F29F24278)
-[LOG] SoundI::release                          :  (0000028FEA788A18)
-[LOG] SoundI::release                          :     2 (0000028F29F25FB8)
-[LOG] SoundI::release                          :  (0000028FEA788FD8)
-[LOG] SoundI::release                          :     8 (0000028F29F26CB8)
-[LOG] SoundI::release                          :  (0000028FEAF075A8)
-[LOG] SoundI::release                          :     Loud (0000028F29D58708)
-[LOG] SoundI::release                          :  (0000028F2B1675C8)
-[LOG] SoundI::release                          :     1 (0000028F29F25938)
-[LOG] SoundI::release                          :  (0000028FEA2EDFE8)
-[LOG] SoundI::release                          :     6 (0000028F29F267D8)
-[LOG] SoundI::release                          :  (0000028FEA2EE158)
-[LOG] SoundI::release                          :     5 (0000028F29F262F8)
-[LOG] SoundI::release                          :  (0000028FEA2EDD08)
-[LOG] SoundI::release                          :     3 (0000028F29D57D48)
-[LOG] SoundI::release                          :  (0000028FB56FE1C8)
-[LOG] SoundI::release                          :     8 (0000028F29D58088)
-[LOG] SoundI::release                          :  (0000028FEA2EDA28)
-[LOG] SoundI::release                          :     4 (0000028F29F26638)
-[LOG] SoundI::release                          :  (0000028FB56FEA68)
-[LOG] SoundI::release                          :     Loud (0000028F29D53AA8)
-[LOG] SoundI::release                          :  (0000028FEA7888A8)
-[LOG] SoundI::release                          :     2 (0000028F29F23A58)
-[LOG] SoundI::release                          :  (0000028FEAF08128)
-[LOG] SoundI::release                          :     1 (0000028F29D57868)
-[LOG] SoundI::release                          :  (0000028FEA2EE438)
-[LOG] SoundI::release                          :     7 (0000028F29F25AD8)
+[LOG] SoundI::release                          :  (00000143A1817518)
+[LOG] SoundI::release                          :     Walk Up (00000143A24DB388)
+[LOG] SoundI::release                          :  (00000143A181B178)
+[LOG] SoundI::release                          :     Walk Right (00000143A24DBA08)
+[LOG] SoundI::release                          :  (00000143A1818098)
+[LOG] SoundI::release                          :     Walk Down (00000143A24DAEA8)
+[LOG] SoundI::release                          :  (00000143A1818C18)
+[LOG] SoundI::release                          :     Walk Left (00000143A24DB048)
+[LOG] SoundI::release                          :  (00000143A1812EA8)
+[LOG] SoundI::release                          :     6 (00000143A7CC6DA8)
+[LOG] SoundI::release                          :  (00000143A1818938)
+[LOG] SoundI::release                          :     8 (00000143A24DCD88)
+[LOG] SoundI::release                          :  (00000143A1818208)
+[LOG] SoundI::release                          :     4 (00000143A24DC708)
+[LOG] SoundI::release                          :  (00000143A1812048)
+[LOG] SoundI::release                          :     Loud (00000143A7CC7428)
+[LOG] SoundI::release                          :  (00000143A1816DE8)
+[LOG] SoundI::release                          :     2 (00000143A7CC7908)
+[LOG] SoundI::release                          :  (00000143A1812608)
+[LOG] SoundI::release                          :     3 (00000143A7CC7C48)
+[LOG] SoundI::release                          :  (00000143A1815E18)
+[LOG] SoundI::release                          :     5 (00000143A7CC7768)
+[LOG] SoundI::release                          :  (00000143A1814FB8)
+[LOG] SoundI::release                          :     1 (00000143A7CC75C8)
+[LOG] SoundI::release                          :  (00000143A1816548)
+[LOG] SoundI::release                          :     7 (00000143A7CC6A68)
+[LOG] SoundI::release                          :  (00000143A181C148)
+[LOG] SoundI::release                          :     1 (00000143A24DA008)
+[LOG] SoundI::release                          :  (00000143A18114C8)
+[LOG] SoundI::release                          :     3 (00000143A7CC7AA8)
+[LOG] SoundI::release                          :  (00000143A181A038)
+[LOG] SoundI::release                          :     6 (00000143A24DC3C8)
+[LOG] SoundI::release                          :  (00000143A181C878)
+[LOG] SoundI::release                          :     7 (00000143A24DCBE8)
+[LOG] SoundI::release                          :  (00000143A1819A78)
+[LOG] SoundI::release                          :     8 (00000143A24DA1A8)
+[LOG] SoundI::release                          :  (00000143A1812A58)
+[LOG] SoundI::release                          :     4 (00000143A7CC6588)
+[LOG] SoundI::release                          :  (00000143A181B008)
+[LOG] SoundI::release                          :     2 (00000143A24DCF28)
+[LOG] SoundI::release                          :  (00000143A181A768)
+[LOG] SoundI::release                          :     5 (00000143A24DA9C8)
+[LOG] SoundI::release                          :  (00000143A1813018)
+[LOG] SoundI::release                          :     Loud (00000143A7CC70E8)
+[LOG] SoundI::release                          :  (00000143A181C708)
+[LOG] SoundI::release                          :     5 (00000143A24DA828)
+[LOG] SoundI::release                          :  (00000143A1819068)
+[LOG] SoundI::release                          :     8 (00000143A24DAB68)
+[LOG] SoundI::release                          :  (00000143A181C9E8)
+[LOG] SoundI::release                          :     6 (00000143A7CC7288)
+[LOG] SoundI::release                          :  (00000143A1819908)
+[LOG] SoundI::release                          :     1 (00000143A24DD268)
+[LOG] SoundI::release                          :  (00000143A181BFD8)
+[LOG] SoundI::release                          :     Loud (00000143A24DAD08)
+[LOG] SoundI::release                          :  (00000143A1817F28)
+[LOG] SoundI::release                          :     4 (00000143A24DA4E8)
+[LOG] SoundI::release                          :  (00000143A18128E8)
+[LOG] SoundI::release                          :     2 (00000143A7CC60A8)
+[LOG] SoundI::release                          :  (00000143A1812D38)
+[LOG] SoundI::release                          :     3 (00000143A7CC63E8)
+[LOG] SoundI::release                          :  (00000143A1818AA8)
+[LOG] SoundI::release                          :     7 (00000143A24DA688)
+[LOG] SoundI::release                          :  (00000143A181BE68)
+[LOG] SoundI::release                          :     3 (00000143A24DC8A8)
+[LOG] SoundI::release                          :  (00000143A181AE98)
+[LOG] SoundI::release                          :     4 (00000143A24D9B28)
+[LOG] SoundI::release                          :  (00000143A1812BC8)
+[LOG] SoundI::release                          :     7 (00000143A7CC6728)
+[LOG] SoundI::release                          :  (00000143A1819798)
+[LOG] SoundI::release                          :     6 (00000143A24DD5A8)
+[LOG] SoundI::release                          :  (00000143A181A318)
+[LOG] SoundI::release                          :     5 (00000143A24DD748)
+[LOG] SoundI::release                          :  (00000143A18191D8)
+[LOG] SoundI::release                          :     2 (00000143A24DD408)
+[LOG] SoundI::release                          :  (00000143A181C598)
+[LOG] SoundI::release                          :     8 (00000143A24DB868)
+[LOG] SoundI::release                          :  (00000143A1815F88)
+[LOG] SoundI::release                          :     Loud (00000143A7CC68C8)
+[LOG] SoundI::release                          :  (00000143A181AA48)
+[LOG] SoundI::release                          :     1 (00000143A24D9CC8)
+[LOG] SoundI::release                          :  (00000143A1818EF8)
+[LOG] SoundI::release                          :     6 (00000143A24D9988)
+[LOG] SoundI::release                          :  (00000143A181ABB8)
+[LOG] SoundI::release                          :     5 (00000143A24DC088)
+[LOG] SoundI::release                          :  (00000143A1817688)
+[LOG] SoundI::release                          :     3 (00000143A24DCA48)
+[LOG] SoundI::release                          :  (00000143A1816F58)
+[LOG] SoundI::release                          :     8 (00000143A7CC6248)
+[LOG] SoundI::release                          :  (00000143A181BCF8)
+[LOG] SoundI::release                          :     4 (00000143A24DC568)
+[LOG] SoundI::release                          :  (00000143A1814438)
+[LOG] SoundI::release                          :     Loud (00000143A7CC7DE8)
+[LOG] SoundI::release                          :  (00000143A181CB58)
+[LOG] SoundI::release                          :     2 (00000143A24DD0C8)
+[LOG] SoundI::release                          :  (00000143A1816828)
+[LOG] SoundI::release                          :     1 (00000143A7CC6F48)
+[LOG] SoundI::release                          :  (00000143A18187C8)
+[LOG] SoundI::release                          :     7 (00000143A24DB528)
 [LOG] Thread::callback                         : FMOD Studio update thread finished.
 [LOG] Thread::callback                         : FMOD Studio bank load thread finished.
 [LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
@@ -206,3 +188,5 @@
 [LOG] Thread::callback                         : FMOD mixer thread finished.
 [LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
 [LOG] SystemI::close                           : Closed.
+[LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
+[LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
